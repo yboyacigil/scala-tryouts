@@ -9,4 +9,5 @@ scalacOptions += "-Ypartial-unification"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.0.0-RC1"
-        
+
+initialCommands in console := "import monads._"

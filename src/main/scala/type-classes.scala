@@ -1,4 +1,4 @@
-package `printable-library` {
+package `type-classes` {
 
   trait Printable[A] {
 
